@@ -1,0 +1,7 @@
+Hello World!
+vim basics:
+
+:wq = write and quit
+:q! = exit without saving
+:q = regular quit
+
