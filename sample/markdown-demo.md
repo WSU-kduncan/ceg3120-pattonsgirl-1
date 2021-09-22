@@ -1,5 +1,7 @@
 # Markdown Guide
 
+![web snip for demo](websnip.PNG)
+
 - [Headers](#Headers)
 - [Paragraphs](#Paragraphs)
 - [Lists](#Lists)
