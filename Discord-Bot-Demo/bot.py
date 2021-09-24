@@ -43,7 +43,8 @@ async def on_message(message):
         'It is a mistake to think you can solve any major problems just with potatoes.',
         'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
         'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
-    ]
+        'This is my new quote',
+        ]
 
     if message.content == 'towel!':
         #response = random.choice(brooklyn_99_quotes)
