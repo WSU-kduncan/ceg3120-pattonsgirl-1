@@ -1,3 +1,4 @@
+#libraries needed: discord.py & python-dotenv
 import os
 
 import discord
