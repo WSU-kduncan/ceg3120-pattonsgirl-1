@@ -1,0 +1,29 @@
+#! /bin/bash
+
+## DEPENDENCIES:
+# requires python3
+# pip3 install -U black
+# pip3 install -U isort
+# pip3 install -U pylint
+
+# Test message that confirms script was called
+# echo "This is a message from my pre-commit"
+
+# TODO: if the following linters change my code, they will no longer
+#	be part of the commit I am making :(
+#	Need to improve that
+
+# Telling user black is running
+echo "Running black python formatter"
+# This runs black on ALL files in the WHOLE folder
+# Since this is a multi project repo, may be better practice to 
+#	have it only run for the Discord-Bot folder, for example
+black Discord-Bot/. 
+
+# This sorts imports
+isort Discord-Bot/.
+
+# Telling the user we are scoring the code with pylint
+# TODO: add filter score or if commit can go or not go based on score
+# pylint Discord-Bot/.
+
